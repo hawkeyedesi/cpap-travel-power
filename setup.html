@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The outage-proof setup · CPAP travel power</title>
+<meta name="description" content="How to chain a USB-C charger, a UPS-style CPAP battery and a ResMed AirSense 11 so a power cut doesn't stop your therapy.">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230f766e'/%3E%3Cpath d='M18 4 9 18h6l-2 10 10-15h-6z' fill='%23fff'/%3E%3C/svg%3E">
+</head>
+<body>
+<header class="site"><div class="wrap"><a class="brand" href="index.html">CPAP <span>travel power</span></a><nav><a href="index.html">Home</a><a href="setup.html" aria-current="page">Outage-proof setup</a><a href="batteries.html">Batteries compared</a><a href="flying.html">Flying</a><a href="india.html">India power</a><a href="test.html">Test your setup</a></nav></div></header>
+<main><div class="wrap">
+<h1>The outage-proof setup</h1>
+<p class="lede">The idea is simple: put a battery <em>between</em> the wall and your CPAP. If the power cuts at 3&nbsp;a.m., the battery takes over and you keep sleeping.</p>
+<div class="diagram" role="img" aria-label="Night setup: wall outlet, plug adapter, 100 watt USB-C charger, Zopec Explore Mini acting as UPS, AirSense 11. Daytime only: EcoFlow power bank recharges the Zopec.">
+<svg class="horiz" viewBox="0 0 720 300" xmlns="http://www.w3.org/2000/svg" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f766e"/></marker>
+<marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#9aa5b1"/></marker></defs>
+<text x="10" y="22" font-size="14" font-weight="700" fill="#0f766e">AT NIGHT</text>
+<g font-size="13" text-anchor="middle">
+<rect x="10" y="40" width="120" height="70" rx="10" fill="#f4f2ec" stroke="#d9d4c8"/><text x="70" y="70" font-weight="600">Wall outlet</text><text x="70" y="90" fill="#5b6670">230 V + adapter</text>
+<rect x="155" y="40" width="130" height="70" rx="10" fill="#f4f2ec" stroke="#d9d4c8"/><text x="220" y="70" font-weight="600">USB-C charger</text><text x="220" y="90" fill="#5b6670">100 W, 100–240 V</text>
+<rect x="310" y="32" width="160" height="86" rx="12" fill="#e6f4f1" stroke="#0f766e" stroke-width="2"/><text x="390" y="64" font-weight="700" fill="#0f766e">CPAP battery (UPS)</text><text x="390" y="84" fill="#1f2933">Zopec Explore Mini</text><text x="390" y="102" fill="#5b6670">takes over in an outage</text>
+<rect x="495" y="40" width="130" height="70" rx="10" fill="#f4f2ec" stroke="#d9d4c8"/><text x="560" y="70" font-weight="600">AirSense 11</text><text x="560" y="90" fill="#5b6670">humidifier off</text>
+</g>
+<g stroke="#0f766e" stroke-width="2.5" fill="none" marker-end="url(#ar)"><path d="M130 75H151"/><path d="M285 75H306"/><path d="M470 75H491"/></g>
+<g font-size="11" fill="#5b6670" text-anchor="middle"><text x="296" y="132">USB-C</text><text x="482" y="132">DC cable</text></g>
+<line x1="10" y1="165" x2="710" y2="165" stroke="#e6e2da"/>
+<text x="10" y="195" font-size="14" font-weight="700" fill="#5b6670">DAYTIME ONLY</text>
+<g font-size="13" text-anchor="middle">
+<rect x="155" y="212" width="130" height="70" rx="10" fill="#fff" stroke="#c3cad1" stroke-dasharray="5 4"/><text x="220" y="242" font-weight="600">Power bank</text><text x="220" y="262" fill="#5b6670">EcoFlow RAPID Pro</text>
+<rect x="310" y="212" width="160" height="70" rx="12" fill="#fff" stroke="#c3cad1" stroke-dasharray="5 4"/><text x="390" y="242" font-weight="600">CPAP battery</text><text x="390" y="262" fill="#5b6670">recharging</text>
+</g>
+<path d="M285 247H306" stroke="#9aa5b1" stroke-width="2.5" marker-end="url(#ag)"/>
+<text x="490" y="242" font-size="12" fill="#5b6670">Not connected to the CPAP.</text><text x="490" y="260" font-size="12" fill="#5b6670">Top-up only, while you're awake.</text>
+</svg>
+<svg class="vert" viewBox="0 0 340 560" xmlns="http://www.w3.org/2000/svg" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" text-anchor="middle">
+<defs><marker id="av" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f766e"/></marker>
+<marker id="avg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#9aa5b1"/></marker></defs>
+<text x="20" y="20" font-size="14" font-weight="700" fill="#0f766e" text-anchor="start">AT NIGHT</text>
+<g font-size="14">
+<rect x="40" y="32" width="260" height="56" rx="10" fill="#f4f2ec" stroke="#d9d4c8"/><text x="170" y="56" font-weight="600">Wall outlet</text><text x="170" y="76" fill="#5b6670" font-size="12">230 V + plug adapter</text>
+<rect x="40" y="118" width="260" height="56" rx="10" fill="#f4f2ec" stroke="#d9d4c8"/><text x="170" y="142" font-weight="600">USB-C charger</text><text x="170" y="162" fill="#5b6670" font-size="12">100 W, 100–240 V</text>
+<rect x="30" y="204" width="280" height="72" rx="12" fill="#e6f4f1" stroke="#0f766e" stroke-width="2"/><text x="170" y="230" font-weight="700" fill="#0f766e">CPAP battery (UPS)</text><text x="170" y="249" font-size="13">Zopec Explore Mini</text><text x="170" y="266" fill="#5b6670" font-size="12">takes over in an outage</text>
+<rect x="40" y="306" width="260" height="56" rx="10" fill="#f4f2ec" stroke="#d9d4c8"/><text x="170" y="330" font-weight="600">AirSense 11</text><text x="170" y="350" fill="#5b6670" font-size="12">humidifier + heated tube off</text>
+</g>
+<g stroke="#0f766e" stroke-width="2.5" marker-end="url(#av)"><path d="M170 88V114"/><path d="M170 174V200"/><path d="M170 276V302"/></g>
+<g font-size="11" fill="#5b6670" text-anchor="start"><text x="180" y="193">USB-C</text><text x="180" y="295">DC cable</text></g>
+<line x1="10" y1="390" x2="330" y2="390" stroke="#e6e2da"/>
+<text x="20" y="416" font-size="14" font-weight="700" fill="#5b6670" text-anchor="start">DAYTIME ONLY</text>
+<g font-size="14"><rect x="40" y="428" width="260" height="50" rx="10" fill="#fff" stroke="#c3cad1" stroke-dasharray="5 4"/><text x="170" y="458" font-weight="600">Power bank (EcoFlow RAPID Pro)</text>
+<rect x="40" y="504" width="260" height="50" rx="10" fill="#fff" stroke="#c3cad1" stroke-dasharray="5 4"/><text x="170" y="534" font-weight="600">CPAP battery, recharging</text></g>
+<path d="M170 478V500" stroke="#9aa5b1" stroke-width="2.5" marker-end="url(#avg)"/>
+</svg></div>
+<h2>The night chain</h2>
+<ol>
+<li><b>Wall outlet + plug adapter.</b> In India that means a Type D adapter for most sockets (we carry a Ceptics India adapter). See <a href="india.html">India power basics</a>.</li>
+<li><b>A dual-voltage USB-C charger.</b> We use an Anker 100&nbsp;W charger. Check the label says <code>100–240V</code> input. Zopec's manual asks for a 65&nbsp;W (or equivalent) USB-C charger for this setup, so 100&nbsp;W leaves some headroom.</li>
+<li><b>A UPS-style CPAP battery.</b> We use the Zopec Explore Mini. Zopec says that while wall power is present it passes straight through (sparing the cells), and if it senses the power has dropped it switches to battery instantly.</li>
+<li><b>AirSense 11</b>, connected with the AirSense 11 DC cable that comes with the Explore Mini.</li>
+</ol>
+<p>Zopec's manual also describes a second way to charge it in UPS mode: your AirSense 11's own power cord plus ResMed's AirSense 11 charging adapter. Either way, follow the manual for your exact cables.</p>
+
+<div class="card quick"><b>Heated tube off.</b> Zopec's manual says that in the USB-C UPS setup the heated tube <em>must</em> be off, or the CPAP will start pulling from the battery even with the wall connected. If you see the battery draining, turn the humidifier and heated tube off too.</div>
+
+<h2>Why not just use a power bank?</h2>
+<p>It's tempting to plug a big laptop power bank into the CPAP and charge the bank from the wall. We don't recommend it for the night:</p>
+<ul>
+<li>Consumer power banks with "pass-through charging" aren't designed as medical UPS units. When wall power cuts, some briefly drop their output while they switch over, and that blip can be enough to reboot the CPAP mid-night.</li>
+<li>Every extra adapter and cable in a daisy-chain is one more thing that can wiggle loose or negotiate the wrong voltage.</li>
+<li>A generic power bank usually needs an extra USB-C-to-CPAP cable, which is another link to trust.</li>
+</ul>
+<p>So we keep our EcoFlow RAPID Pro (99.54&nbsp;Wh) <b>off the night path</b>. During the day, if the CPAP battery ran down overnight, we use the EcoFlow to recharge it over USB-C. That's useful on days when the power is out for a long stretch.</p>
+
+<h2>How long will it last?</h2>
+<p>With the humidifier and heated tube <b>off</b>, we're planning on roughly <b>10–12 hours, so about one night</b>, from one fully charged ~100&nbsp;Wh battery. Zopec's own pages say "1–2 nights" or "1.5–2.0 nights" in the same conditions. We use the lower number because runtime depends heavily on your pressure, mask leak and the room.</p>
+<p>With the humidifier on, runtime drops a lot. For its similar 95&nbsp;Wh Pilot-24 Lite, the runtime table a Medistrom retailer publishes says using the humidifier or heated tubing cuts runtime to about 2–4 hours.</p>
+<p>We'll replace the planning estimate with our own measured numbers after <a href="test.html">our tests</a>.</p>
+
+<div class="card note"><strong>Not medical advice.</strong> This is a traveller's guide, not guidance from a clinician. Check your therapy settings and any battery use with your doctor or DME (equipment supplier), and check battery rules with your airline before you fly.</div>
+<section class="sources"><h2>Sources</h2><ol><li><a href="https://www.respshop.com/cdn/shop/files/ENG_Explore_Mini_User_Manual_03.03.24_1.pdf" rel="noopener">Zopec Explore Mini user manual (PDF, hosted by a retailer)</a></li><li><a href="https://www.zopec.com/pages/zopec-medical-universal-cpap-battery-line" rel="noopener">Zopec – how the Explore UPS batteries work</a></li><li><a href="https://www.zopec.com/products/zopec-explore-mini-battery-system" rel="noopener">Zopec – Explore Mini Battery System product page</a></li><li><a href="https://www.zopecexploremini.com/" rel="noopener">Zopec Explore Mini official site</a></li><li><a href="https://www.anker.com/products/a2688-anker-prime-charger-100w-3-ports-gan" rel="noopener">Anker – Prime Charger (100W, 3 ports) specifications (example of a 100W charger)</a></li><li><a href="https://us.ecoflow.com/products/ecoflow-rapid-pro-power-bank-27650mah-300w-140w-built-in-cable" rel="noopener">EcoFlow – RAPID Pro Power Bank (27,650mAh, 300W)</a></li><li><a href="https://choiceonemedical.com/products/pilot-24-lite" rel="noopener">Choice One Medical (retailer) – Pilot-24 Lite page with tested runtime table</a></li><li><a href="https://document.resmed.com/documents/products/machine/airsense-11/user-guide/airsense11_user-guide_amer_mul.pdf" rel="noopener">ResMed AirSense 11 user guide (technical specifications, 65W power supply)</a></li></ol><p>Checked October 2026. Specs change; trust the label on your own gear and the manufacturer's current page.</p></section>
+</div></main>
+<footer><div class="wrap">An independent guide. No ads, no affiliate links, no sponsors. Product names are mentioned only because it's the gear we actually use or considered.</div></footer>
+</body>
+</html>

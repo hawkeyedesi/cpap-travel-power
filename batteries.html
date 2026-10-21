@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Batteries compared · CPAP travel power</title>
+<meta name="description" content="UPS-style CPAP batteries vs generic USB-C power banks for a ResMed AirSense 11: capacity, outage switchover and charging.">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230f766e'/%3E%3Cpath d='M18 4 9 18h6l-2 10 10-15h-6z' fill='%23fff'/%3E%3C/svg%3E">
+</head>
+<body>
+<header class="site"><div class="wrap"><a class="brand" href="index.html">CPAP <span>travel power</span></a><nav><a href="index.html">Home</a><a href="setup.html">Outage-proof setup</a><a href="batteries.html" aria-current="page">Batteries compared</a><a href="flying.html">Flying</a><a href="india.html">India power</a><a href="test.html">Test your setup</a></nav></div></header>
+<main><div class="wrap">
+<h1>Batteries compared</h1>
+<p class="lede">There are two kinds of battery people use with a CPAP: ones built to sit in the power path like a UPS, and general power banks. Both can be useful, just for different jobs.</p>
+
+<div class="table-wrap"><table>
+<thead><tr><th></th><th>Zopec Explore Mini</th><th>Medistrom Pilot-24 Lite</th><th>EcoFlow RAPID Pro power bank</th></tr></thead>
+<tbody>
+<tr><td><b>Type</b></td><td>CPAP battery with UPS</td><td>CPAP battery / backup power supply</td><td>General USB-C power bank</td></tr>
+<tr><td><b>Capacity (maker)</b></td><td>99.5&nbsp;Wh</td><td>95&nbsp;Wh</td><td>99.54&nbsp;Wh (27,650&nbsp;mAh)</td></tr>
+<tr><td><b>AirSense 11</b></td><td>Cables included</td><td>Needs AirSense 11 kit (sold separately)</td><td>Not designed for CPAP; would need a third-party cable</td></tr>
+<tr><td><b>Takes over in an outage</b></td><td>Yes, wall power passes through and it auto-switches (maker's claim)</td><td>Yes, sold as a backup power supply (maker's claim)</td><td>Has pass-through charging, but it isn't a UPS. Not recommended on the night path</td></tr>
+<tr><td><b>Charges from</b></td><td>USB-C (65&nbsp;W) or ResMed cord + adapter</td><td>24&nbsp;V DC input (ResMed or Medistrom adapter). No USB-C input listed, so it can't top up from a USB-C power bank</td><td>USB-C (up to 140&nbsp;W per port)</td></tr>
+<tr><td><b>Recharge time (maker)</b></td><td>Under 1.5&nbsp;h</td><td>2–3&nbsp;h (7–9&nbsp;h with the AirMini adapter)</td><td>0–80% in 20&nbsp;min with EcoFlow's own 320&nbsp;W station</td></tr>
+<tr><td><b>Our role for it</b></td><td>Night path (we own one)</td><td>Good alternative</td><td>Daytime top-ups only (we own one)</td></tr>
+</tbody></table></div>
+<p style="font-size:.9rem;color:var(--muted)">All specs are from the manufacturers' own pages (see Sources). We haven't measured any of them yet.</p>
+
+<h2>What "UPS-style" means</h2>
+<p>A UPS (uninterruptible power supply) sits between the wall and your device. When wall power is there, it powers the device and stays charged. When wall power disappears, it switches to battery fast enough that the device doesn't notice. Zopec describes three parts: wall power pass-through, outage detection with automatic switching, and the reserve battery.</p>
+
+<h2>A note on runtime numbers</h2>
+<p>Runtime depends mostly on your pressure setting. Here are tested AirSense 11 runtimes for the Pilot-24 Lite with the humidifier and heated tube off, from a table published by retailer Choice One Medical (Medistrom's own page just says "1–2 nights" at an average pressure):</p>
+<div class="table-wrap"><table style="min-width:320px">
+<thead><tr><th>Pressure</th><th>Runtime (published test)</th></tr></thead>
+<tbody><tr><td>5 cm H₂O</td><td>20 h 11 m</td></tr><tr><td>10 cm H₂O</td><td>12 h 33 m</td></tr><tr><td>15 cm H₂O</td><td>8 h 55 m</td></tr><tr><td>20 cm H₂O</td><td>6 h 58 m</td></tr></tbody></table></div>
+<p>These are published figures for one battery, not ours, but they show the pattern: higher pressure means a shorter night. Our own planning number for the Zopec is about one night (10–12&nbsp;h) with the humidifier and heated tube off.</p>
+
+<h2>Why all three are just under 100 Wh</h2>
+<p>That's not a coincidence. 100&nbsp;Wh is the line under which spare lithium batteries are generally allowed in carry-on without airline approval. See <a href="flying.html">Flying with CPAP batteries</a>.</p>
+
+<div class="card note"><strong>Not medical advice.</strong> This is a traveller's guide, not guidance from a clinician. Check your therapy settings and any battery use with your doctor or DME (equipment supplier), and check battery rules with your airline before you fly.</div>
+<section class="sources"><h2>Sources</h2><ol><li><a href="https://www.zopec.com/products/zopec-explore-mini-battery-system" rel="noopener">Zopec – Explore Mini Battery System product page</a></li><li><a href="https://www.zopec.com/pages/zopec-medical-universal-cpap-battery-line" rel="noopener">Zopec – how the Explore UPS batteries work</a></li><li><a href="https://www.respshop.com/cdn/shop/files/ENG_Explore_Mini_User_Manual_03.03.24_1.pdf" rel="noopener">Zopec Explore Mini user manual (PDF, hosted by a retailer)</a></li><li><a href="https://www.medistrom.com/products-pilot24-lite.html" rel="noopener">Medistrom – Pilot-24 Lite product page</a></li><li><a href="https://www.medistrom.com/products-pilot24-lite-resmed-airsense-11-kit.html" rel="noopener">Medistrom – AirSense 11 kit for Pilot-24 Lite</a></li><li><a href="https://choiceonemedical.com/products/pilot-24-lite" rel="noopener">Choice One Medical (retailer) – Pilot-24 Lite page with tested runtime table</a></li><li><a href="https://us.ecoflow.com/products/ecoflow-rapid-pro-power-bank-27650mah-300w-140w-built-in-cable" rel="noopener">EcoFlow – RAPID Pro Power Bank (27,650mAh, 300W)</a></li></ol><p>Checked October 2026. Specs change; trust the label on your own gear and the manufacturer's current page.</p></section>
+</div></main>
+<footer><div class="wrap">An independent guide. No ads, no affiliate links, no sponsors. Product names are mentioned only because it's the gear we actually use or considered.</div></footer>
+</body>
+</html>
